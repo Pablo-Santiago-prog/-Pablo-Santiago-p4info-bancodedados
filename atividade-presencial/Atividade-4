@@ -1,1 +1,8 @@
+Entidade = conjunto de objetos da realidade modelada sobre os quais deseja-se manter informações no banco de dados
+Relacionamento é associação entre duas entidades, no exemplo abaixo há o relacionamento entre duas entidades, médico e paciente
+O conceito de atributo serve para associar informações a ocorrências de entidades ou de relacionamentos, ou seja, o atributo são características de cada ocorrência ou relacionamento que deseja-se guardar no banco de dados.
+Um domínio é um conjunto (possivelmente infinito em número) de valores definido e nomeado, do qual um ou mais atributos extraem seus valores.
+A generalização/especialização consiste em uma entidade genérica e subconjuntos mais específicos, lembrando que a ocorrência da entidade genérica possui além de seus atributos os atributos da especialização.
+Uma entidade associativa nada mais é que a redefinição de um relacionamento, que passa a ser tratado como se fosse uma entidade.
+A cardinalidade dos atributos código e nome é (1,1). Por convenção, ela foi omitida do diagrama. No caso de atributos, a cardinalidade mínima 1 indica que o atributo é obrigatório e a cardinalidade máxima 1 indica que o atributo é monovalorado.
 
