@@ -1,1 +1,5 @@
+A modelagem conceitual é a primeira etapa da modelagem de dados, ficando ainda o modelo lógico de dados e o modelo físico de dados.
 
+O Projeto Lógico de um banco de dados tem por objetivo avaliar as necessidades de uso do banco de dados pelos usuários/aplicações, realizando possíveis refinamentos para alcançar maior desempenho das operações sobre o banco de dados.
+
+O Projeto Físico é a parte final do projeto de banco de dado, nesta etapa define-se detalhes técnicos da implementação do banco de dados, por exemplo a forma como os dados serão armazenados, os scripts para a criação dos objetos no banco de dados.
