@@ -1,1 +1,8 @@
-scaca
+a)Cardinalidade Mínima - define se o relacionamento entre duas entidades é obrigatório ou não. Ex: Abaixo temos a entidade Pais e a Entidade UF. Uma UF pertence pelo menos a UM País. Cardinalidade Máxima - define a quantidade máxima de ocorrências da Entidade que pode participar do Relacionamento.
+
+b)Segundo a legislação brasileira, cada Esposo só pode ter uma única esposa, bem como, cada esposa só pode ter um esposo. Essa é uma relação entre as tabelas esposo e esposa com cardinalidade 1 : 1. Exemplo: Cada mulher pode ter 0 ou vários filhos. Cada filho só terá uma mãe (lei da natureza).
+
+c)A cardinalidade 1 : N indica a relação entre duas tabelas em que cada elemento de uma tabela A pode se relacionar com nenhum ou vários elementos da tabela B. Porém, cada elemento de B só pode se relacionar com um elemento de A, assim sendo, cada B terá uma entrada de chave que se refere à tabela A, a famosa chave estrangeira (foreign key ou FK).
+Exemplo: Cada mulher pode ter 0 ou vários filhos. Cada filho só terá uma mãe (lei da natureza).
+
+d)O relacionamento NN: define que um item de uma tabela pode se relacionar com vários itens de uma outra tabela e vice-versa. Por exemplo, podemos determinar que um pedido pode possuir diversos produtos relacionados a ele, assim como um mesmo produto pode estar relacionado a diversos pedidos diferentes.
